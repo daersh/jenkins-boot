@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ohgiraffers.bootproject.controller.CalculatorControllerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-04-08T02:07:50" hostname="HYUNui-MacBookPro.local" time="0.012">
+  <properties/>
+  <testcase name="[1] input=CalculatorDTO(num1=1, num2=2, sum=0)" classname="com.ohgiraffers.bootproject.controller.CalculatorControllerTests" time="0.008"/>
+  <testcase name="[2] input=CalculatorDTO(num1=3, num2=5, sum=0)" classname="com.ohgiraffers.bootproject.controller.CalculatorControllerTests" time="0.001"/>
+  <testcase name="[3] input=CalculatorDTO(num1=10, num2=-2, sum=0)" classname="com.ohgiraffers.bootproject.controller.CalculatorControllerTests" time="0.001"/>
+  <system-out><![CDATA[2024-04-08T11:07:50.907+09:00  INFO 69708 --- [gateway-server] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.ohgiraffers.bootproject.controller.CalculatorControllerTests]: CalculatorControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-08T11:07:50.910+09:00  INFO 69708 --- [gateway-server] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.ohgiraffers.bootproject.BootProjectApplication for test class com.ohgiraffers.bootproject.controller.CalculatorControllerTests
+calculatorDTO = CalculatorDTO(num1=1, num2=2, sum=3)
+calculatorDTO = CalculatorDTO(num1=3, num2=5, sum=8)
+calculatorDTO = CalculatorDTO(num1=10, num2=-2, sum=8)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
