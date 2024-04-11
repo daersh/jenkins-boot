@@ -21,7 +21,7 @@ public class CalculatorController {
     @GetMapping("")
     public ResponseEntity<String> health_check(){
         System.out.println("통신 완료");
-        String a = "ACK";
+        String a = "ACK!!";
         return ResponseEntity.ok().body(a);
     }
 
